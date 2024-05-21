@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(241, 241, 241);
+
+}
+
+
+.boll-anime{
+    animation: boll-anime 7s ease-in-out infinite;
+    transition: all 0.3s;
+}
+@keyframes boll-anime {
+
+
+
+    50%{
+        transform: translateX(100%);
+        opacity: .2;
+
+    }
+   
+    
+}
+
+.content{
+    animation: anime 0.8s ease-in forwards;
+    transition: all 0.3s;
+}
+
+@keyframes anime {
+
+    0%{
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    
+}
+
+.title-anime{
+    animation: T-anime 0.8s ease-in 0.1s forwards;
+    transition: all 0.3s;
+}
+
+@keyframes T-anime  {
+
+    0%{
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    
+}
+

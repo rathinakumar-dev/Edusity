@@ -1,0 +1,11 @@
+.hero{
+    max-width: 100%;
+    max-height: 100vh;
+    position: relative;
+    top: 0; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../Image/college.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
